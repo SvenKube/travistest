@@ -17,3 +17,4 @@ jobs:
     - node_js: "12"
       os: linux
       env: RUN_TEST=true
+      script: echo "HALLO"
