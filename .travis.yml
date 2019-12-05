@@ -11,7 +11,7 @@ install:
   - npm install
 script:
   - npm run test
-  - if [[ "$RUN_TEST" == true ]]; then node examples.js fi
+  - if [[ "$RUN_TEST" == true ]]; then node examples.js; fi
 jobs:
   include:
     - node_js: "12"
